@@ -1,0 +1,8 @@
+version: '3.1'
+services:
+servicio1:
+build: Dockerfile
+ports:
+      "8407"
+volumes:
+- ./datadrive:/usr/share/ngnix/html/

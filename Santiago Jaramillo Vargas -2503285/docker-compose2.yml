@@ -1,0 +1,9 @@
+servicio2:
+image: mysql:latest
+ports: 
+      "3306:3306"
+environment:
+MYSQL_ROOT_PASSWORD: mysecretpassword
+MYSQL_DATABASE: mydb
+MYSQL_USER: myuser
+MYSQL_PASSWORD: myuserpassword
